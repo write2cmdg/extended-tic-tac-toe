@@ -1,0 +1,145 @@
+.hide {
+    display: none;
+}
+
+.transparent {
+    opacity: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #faa;
+}
+
+h1 {
+    font-size: 1.75rem;
+    color: #555;
+    margin: 20px;
+    text-align: left;
+    margin-left: 70px;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin: 20px;
+    color: #888
+}
+
+span {
+    float: right;
+    margin-right: 50px;
+    color: #c00;
+    font-size: 1.75rem; 
+}
+
+button {
+    background-color: #fee;
+    color: #955;
+    /* margin: 20px; */
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    width: 600px;
+    height: 75px;
+    box-shadow: 2px 2px 6px#955;
+    text-transform: uppercase;
+    border-bottom-right-radius:25px;
+    border-bottom-left-radius:25px;
+    margin-bottom: auto;
+}
+
+button:hover, button:focus {
+    
+    background-color: #900;
+    color: #fff;
+}
+
+
+label {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color:#444;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.container {
+    
+    border-top-right-radius:25px;
+    border-top-left-radius:25px;
+    background-color: #fee;
+    margin: 100px auto 0 auto;
+    width: 600px;
+    height: 700px;
+    border: 1px solid #555;
+}
+
+.top-disp {
+    height: 115px;
+}
+
+.board {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 6px#955;
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    color: #955;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 2px;
+    font-size: 6rem;
+}
+
+.square5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 6px#955;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    color: #955;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 2px;
+    font-size: 3rem;
+}
+
+.square:hover, .square:focus {
+    background-color: #900;
+    color: #fff;
+}
+
+.square5:hover, .square5:focus {
+    background-color: #900;
+    color: #fff;
+}
+
+
+
+
